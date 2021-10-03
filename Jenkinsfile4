@@ -1,0 +1,11 @@
+node {
+	stage("run command"){
+	    if (isUnix()){
+	    	sh "ls -ltr"
+	    }
+	    else {
+	    	bat "dir"
+	    }
+		
+	}
+}
