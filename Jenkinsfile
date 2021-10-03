@@ -1,3 +1,5 @@
 node {
-	echo "HI"
+  stage("stage1") {
+  	echo "HI"
+  }
 }
